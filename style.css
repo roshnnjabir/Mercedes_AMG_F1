@@ -1,3 +1,15 @@
+@font-face {
+    font-family: 'Unity-Sans-Regular'; /* Name your font family */
+    src: url('Unity-Sans-Regular.woff2'); /* Locate the .ttf file within your directory*/
+}
+@font-face {
+    font-family: 'Unity-Sans-SemiBold';
+    src: url('Unity-Sans-SemiBold.woff2');
+}
+@font-face{
+    font-family: 'Unity-Sans-Medium';
+    src: url('Unity-Sans-Medium.woff2');
+}
 body{
     margin: 0;
     overflow-x: hidden;
@@ -17,9 +29,8 @@ body{
 }
 .mercedes_logo{
     height: 62px;
+    width: 203px;
     float: left;
-    padding-right: 40px;
-    padding-bottom: 5px;
 }
 .mercedes_logo:hover{
     cursor: pointer;
@@ -68,7 +79,7 @@ li{
 }
 .lis_a{
     color: white;
-    font-family: "Nunito Sans", sans-serif;
+    font-family: "Unity-Sans-Regular", sans-serif;
     text-decoration: none;
     font-size: 14px;
 }
@@ -94,7 +105,8 @@ li{
 .al{
     display: flex;
     align-items: center;
-    gap: 5px;
+    gap: 4.5px;
+    padding: 5px 1px 5px 5px;
 }
 .mrg{
     margin-left: 30px;
@@ -108,7 +120,7 @@ li{
     font-weight: bold;
 }
 .fnt{
-    font-family: "Nunito Sans", sans-serif;
+    font-family: "Unity-Sans-SemiBold",sans-serif;
     font-size: 16px;
 }
 button{
@@ -159,13 +171,13 @@ button{
     position: relative;
 }
 .fmdm{
-    font-family: "Unity Sans TT Medium",sans-serif;
+    font-family: "Unity-Sans-Medium",sans-serif;
 }
 .ff{
-    font-family: "Unity TT Sans Regular",sans-serif;
+    font-family: "Unity-Sans-Regular",sans-serif;
 }
 .sb{
-    font-family: "Unity TT Sans SemiBold",sans-serif;
+    font-family: "Unity-Sans-SemiBold",sans-serif;
 }
 .clr{
     color: rgb(0, 245,208);
